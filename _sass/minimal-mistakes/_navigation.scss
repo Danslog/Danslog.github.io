@@ -177,7 +177,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  background: $masthead-background-color;
 
   a {
     display: block;
@@ -440,16 +440,26 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
-
+    font-weight: bold;
   a {
-    color: inherit;
+    color: mix(#000000,$gray,20%);
+    margin: 1em;
+    &:hover {
+      color: #2b1d14;
+      text-decoration: underline;
+    }
   }
 
   .active {
-    margin-left: -0.5em;
+    color: #3eb489;
+    margin-left: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     font-weight: bold;
+    &:hover {
+      color: #3eb489;
+      text-decoration: underline;
+    }
   }
 
   @include breakpoint(max-width $large - 1px) {
