@@ -1,7 +1,11 @@
 # main links
 main:
+  - title: "Docs"
+    url : /doc/
+  - title: "Blog"
+    url: /blog
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /About
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -15,11 +19,7 @@ docs:
 - title: "Pytorch"
   children:
   - title: " first post"
-    url: /categories/python/About
+    url: /doc/python/About
 - title: "python"
-- title: "Blog"
+- title: "Deep learning"
   children:
-  - title: " first post"
-    url: /categories/Blog/About
-  - title: " second post"
-    url: /categories/Blog/Second

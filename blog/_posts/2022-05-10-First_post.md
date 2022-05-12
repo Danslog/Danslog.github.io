@@ -3,12 +3,9 @@ title: "First Post"
 toc: true
 toc_sticky: true
 toc_label: false
-categories:
-    - Blog
+layout: single2
 tags: etc
-permalink: "/categories/Blog/About"
-sidebar:
-    - nav: "docs"
+permalink: "/blog/About"
 ---
 
 
