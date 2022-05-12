@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /about/
+permalink: about
 title: "About"
 ---
 
