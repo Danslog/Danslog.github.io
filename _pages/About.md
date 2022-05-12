@@ -1,6 +1,8 @@
 ---
+layout: splash
 permalink: /about/
 title: "About"
 ---
 
-Aboutttt
+## About
+안녕하세요.
